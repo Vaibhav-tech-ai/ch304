@@ -1,0 +1,178 @@
+h1{
+    text-transform: uppercase;
+    text-align:center;
+    font-family: chalkduster;
+    color:#FFFFFF;
+    text-decoration-style:solid;
+    height: 80px;
+    padding-top: 25px;
+    font-size: 250%;
+
+}
+
+
+ nav a{
+    text-decoration: none;
+   border:groove 1px white;
+    color:#000000;
+    font-size: 20px;
+    margin:50px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 5%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   
+    text-align: center;
+ 
+        
+    
+}
+
+nav a:hover{
+  color:#00ff0f;
+    background-color: #ffffff;
+       transition:0.8s ease 0.8;
+      padding:4%;
+}
+
+nav a:focus{
+  color:#00ff0f;
+    background-color: #ffffff;
+       transition:0.8s ease 0.8;
+      padding:4%;
+}
+nav a:active{
+color:#987654;
+}
+.active
+{
+background-color: #fff000;
+
+}
+
+aside a{
+display:block;
+    width:120px;
+    height:180px; 
+    border:none none;
+    outline:0;
+text-decoration: none;
+padding:0%;
+}
+
+
+aside img{
+  height:120px;
+    display: block;
+    width:210px;
+    border:solid 2px;
+    transition:none;
+   margin-left: 40px;
+    margin-top:20px
+ 
+ }
+
+
+header{
+    background-image: url(images/flywheel.jpg);
+    height:200px;
+    background-position: top;
+    background-size: cover;
+}
+
+
+h2{
+font-size: 200%;
+}
+
+
+aside,section{
+display:inline-block;
+width:70%;
+    float:left;
+    font-size: 140%;
+
+    
+}
+
+
+aside{
+    display:block;
+width:300px;
+    height:500px;
+    background-color: #708208;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-right: 2%;
+
+}
+
+
+body{
+
+margin: 3%;
+}
+
+
+section a
+{
+  text-decoration: underline;
+    padding:0;
+    border:0 none;
+    border-radius: 0;
+    color: #0000ff;
+}
+
+table{
+   font-family:"Arial";
+    font-size:20px;
+   font-weight: 400;
+   line-height: 30px;
+    width:auto;
+    margin:10%;
+    padding:2%;    
+}
+th{
+    font-family: "comic sans ms";
+    text-align: left;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+   background-image:linear-gradient(#8FBC8F,#90EE90);
+     border-top-left-radius: 8%;
+    border-top-right-radius: 8%; 
+    border-bottom: solid 6px;
+}
+th:nth-child(2)
+{
+    text-align: center;
+}
+th:nth-child(3)
+{
+    text-align: center;
+}
+td{
+  border:ridge 1px;
+    background-color: rgba(152,251,152,0.4);
+    padding:1%;
+    border-radius: 2px;
+    text-shadow: 2px 2px rgba(152,251,152,1);
+    color:#000000;
+
+}
+td:nth-child(2){
+text-align: center;
+}
+td:nth-child(3){
+text-align: center;
+}
+tr:hover{
+    background-color: rgba(152,251,152,1);
+}
+
+
+
+
+
